@@ -21,5 +21,5 @@ app.get('/s', (req,res)=>{
 })
 
 const POST = process.env.PORT || 5000
-app.listen(PORT)
+app.listen(POST)
 console.log(" Server is running ")
