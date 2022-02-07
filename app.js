@@ -20,5 +20,6 @@ app.get('/s', (req,res)=>{
     res.render('student', {danhsach:ds})
 })
 
-app.listen(5000)
+const POST = process.env.PORT || 5000
+app.listen(PORT)
 console.log(" Server is running ")
